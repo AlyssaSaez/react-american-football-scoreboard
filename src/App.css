@@ -4,9 +4,9 @@
 }
 
 .scoreboard {
-  width: 58%;
+  width: 37%;
   margin: 2rem auto;
-  background-color: #0b5402;
+  background-color: blue;
   color: white;
   border-radius: 0.5rem;
   padding: 5rem;
@@ -33,11 +33,11 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: orangered;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #196F48;
 }
 
 .home__name,
@@ -115,7 +115,17 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+#startBtn,
+#resetBtn {
   margin: 1rem;
   border-radius: 4px;
+}
+
+#startBtn,
+#resetBtn {
+ margin-left: 19%;
+ margin-bottom: 5%;
+ width: 15rem;
+ height: 5rem; 
 }
